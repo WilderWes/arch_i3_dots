@@ -127,6 +127,7 @@ alias ls='eza -la --color=always --group-directories-first --icons'
 alias fastfetch="fastfetch --config examples/8.jsonc"
 alias update-grub="sudo grub-mkconfig -o /boot/grub/grub.cfg"
 alias x-copy="xclip -selection clipboard"
+alias ssh="kitty +kitten ssh"
 
 # Yazi
 function y() {
