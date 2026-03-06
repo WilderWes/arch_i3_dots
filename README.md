@@ -26,6 +26,7 @@ Arch i3 config for development and guitar practice/recording. Emphasis on vim-ba
 - [dex-autostart](https://github.com/jceb/dex) — XDG autostart
 - [1Password](https://1password.com/) — password manager desktop app (`$mod+p`)
 - [dark theme reddit](<https://www.reddit.com/r/hyprland/comments/1h4abmt/how_do_i_apply_dark_theme/>)
+  - `xdg-desktop-portal-gtk`
   - [qt5ct](https://github.com/desktop-app/qt5ct) [qt6ct](https://github.com/trialuser02/qt6ct) [adw-gtk3-theme](https://github.com/lassekango83/adw-gtk3)
   - `sudo echo "QT_QPA_PLATFORMTHEME=qt6ct" >> /etc/environment`
   - copy my `gtk-*` files to ~/.config
