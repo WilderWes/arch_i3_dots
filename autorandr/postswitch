@@ -18,7 +18,7 @@ fi
 # firefox
 if pgrep -x firefox >/dev/null; then
     pkill -x firefox
-    i3-msg 'workspace 1; exec firefox'
+    i3-msg 'workspace 1; exec firefox-developer-edition'
 fi
 
 # other apps that need restarted
