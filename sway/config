@@ -2,6 +2,7 @@
 # Default config for sway (Arch Linux Version)
 
 ### Autostart
+exec gammastep
 exec kanshi
 exec /usr/lib/lxqt-policykit-agent
 exec dropbox
@@ -58,7 +59,7 @@ bindsym $mod+Shift+c reload
 bindsym $mod+Shift+e exec swaynag -t warning -m 'You pressed the exit shortcut. Do you really want to exit sway? This will end your Wayland session.' -B 'Yes, exit sway' 'swaymsg exit'
 
 # Application launchers:
-bindsym $mod+b exec firefox
+bindsym $mod+b exec firefox-developer-edition
 bindsym $mod+p exec 1password
 bindsym $mod+d exec vesktop
 
