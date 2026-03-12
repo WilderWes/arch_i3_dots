@@ -19,6 +19,7 @@ Arch i3 config for development and guitar practice/recording. Emphasis on vim-ba
 - [feh](https://feh.finalrewind.org/) — wallpaper setter
 - [xss-lock](https://bitbucket.org/raymonad/xss-lock) + [i3lock](https://i3wm.org/i3lock/) — screen lock on suspend (`$mod+Escape`)
 - [dunst](https://dunst-project.org/) — notification daemon
+- [downgrade](https://aur.archlinux.org/packages/downgrade)
 - [maim](https://github.com/naelstrof/maim) + [xclip](https://github.com/astrand/xclip) — screenshot to clipboard (`Print` key)
 - [brightnessctl](https://github.com/Hummer12007/brightnessctl) — backlight control
 - [pasystray](https://github.com/christophgysin/pasystray) — PulseAudio systray applet
