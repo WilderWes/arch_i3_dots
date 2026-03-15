@@ -40,7 +40,7 @@ Arch i3 config for development and guitar practice/recording. Emphasis on vim-ba
 
 ## Terminal & Shell
 
-- [kitty](https://sw.kovidgoyal.net/kitty/) with [CommitMono](https://commitmono.com/) and Tokyo Night theme
+- [kitty](https://sw.kovidgoyal.net/kitty/) with JetBrains Mono and Tokyo Night theme
   - Symbols Nerd Font Mono as nerd font fallback for icons
 - [oh-my-zsh](https://ohmyz.sh/) with plugins:
   - [git](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/git) (built-in)
