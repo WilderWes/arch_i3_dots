@@ -4,6 +4,11 @@ export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH
 # Path to your Oh My Zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
 
+# Go Path
+export PATH=$PATH:/usr/local/go/bin
+export GOPATH=$HOME/.go
+export PATH=$PATH:$GOPATH/bin
+
 # ripgrep-all
 export PATH=$PATH:$HOME/.cargo/bin
 
@@ -90,6 +95,8 @@ plugins=(
     gradle-completion
 )
 
+# change zcompdump location (https://github.com/ohmyzsh/ohmyzsh/issues/7332)
+export ZSH_COMPDUMP=${XDG_CACHE_HOME:-$HOME/.cache}/zsh/.zcompdump
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
