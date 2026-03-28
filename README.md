@@ -78,7 +78,7 @@ Arch i3 config for development and guitar practice/recording. Emphasis on vim-ba
 
 ## Communication
 
-- [Discord](https://discord.com/)
+- [vesktop](https://vesktop.dev/) — a better discord
 
 ## Development Setup and Tools
 
